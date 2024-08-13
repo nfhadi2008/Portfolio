@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Own Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="N-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.css">
+</head>
+<body>
+    <div class="topnav">
+        <div class="logo">
+            <h2>Naufal Hadi</h2>
+        </div>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/naufaaalhadiii/"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="menu-icon">
+            <i class="fa fa-bars"></i>
+        </div>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">What I can?</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="17 Naufal Hadi Rizqullah - Curriculum Vitae.png">Portfolio</a></li>
+            <li><a href="https://nfhadi2008.github.io/informatika/">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="header">
+        <div class="wrapper">
+            <div class="sidebar">
+                <div class="profile">
+                    <img src="Fotoku.jpg" alt="Profile Picture">
+                    <h2>Naufal Hadi Rizqullah</h2>
+                </div>
+                <ul class="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">What I Do</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="17 Naufal Hadi Rizqullah - Curriculum Vitae.png">Portfolio</a></li>
+                    <li><a href="https://nfhadi2008.github.io/informatika/">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/naufaaalhadiii/"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="hero-content">
+                <h4>Welcome</h4>
+                <h1>I'm <span class="highlight input"></span></h1>
+                <h4>Born in Bekasi, West Java</h4>
+                <a href="https://wa.me/+62-812-1814-5823" class="btn">Hire</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script>
+        document.querySelector('.menu-icon').addEventListener('click', function() {
+            document.querySelector('.navbar').style.display = 
+                document.querySelector('.navbar').style.display === 'none' || document.querySelector('.navbar').style.display === '' 
+                ? 'flex' 
+                : 'none';
+        });
+
+        var typed = new Typed(".input", {
+            strings: ["Naufal Hadi Rizqullah", "Siswa MAN IC", "Anak Informatika", "Anak Imtak"],
+            typeSpeed: 60,
+            backSpeed: 50,
+            loop: true
+        }); 
+    </script>
+</body>
+</html>
